@@ -1,0 +1,129 @@
+body{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    background-color: lightsalmon;
+    box-sizing: border-box;
+}
+nav{
+    background-color: teal;
+    padding: 1.5rem 0 0.5rem 1.5rem;
+}
+
+ul{
+    margin: 0;
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}   
+
+li{
+    color: lightsalmon;
+}
+.main-heading{
+    background-color: rgba(0,0,0,0.5);
+    margin: 11rem 0 15rem 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.main-heading h1{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: coral;
+}
+
+.main-sub-heading{
+    padding: 1.5rem 0 0 1rem;
+}
+
+.main-sub-heading h2{
+    color: yellow
+}
+
+.main-sub-heading p{
+    color: white;
+}
+
+.first-image-section{
+    margin: 4em auto;
+}
+
+.first-image-section img{
+    width: 30%;
+    margin: 1.5%;
+}
+.quote-section{
+    background-color: teal;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: 8rem;
+    color: yellow;
+}
+
+.quote{
+    font-size: 2.5rem;
+}
+
+.invitation{
+    margin: 4em auto;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.invitation img{
+    width: 50%;
+height: auto;
+display: block;
+margin: auto;
+}
+
+@media only screen and (max-width: 1048px) {
+    .first-image-section img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .main-heading h1 {
+      margin-top: 2rem;
+    }
+  
+    .main-heading {
+      max-height: 200px;
+    }
+  
+    .first-image-section img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    ul {
+        width: 100vd;
+    }
+    nav{
+        padding: 0.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .quote-section h1 {
+      font-size: 2rem;
+    }
+  
+    .first-image-section img {
+      width: 100%;
+    }
+    ul{
+        flex-direction: column;
+    }
+  }
+  
